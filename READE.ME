@@ -1,0 +1,16 @@
+Este Projeto é um "spider" do Scrapy, uma biblioteca de Python usada para a
+extração de dados da web (web scraping). Vou descrever o que este script faz para 
+que você possa colocá-lo no GitHub com uma descrição adequada.
+Descrição do Código
+
+Scrapy Spider para Coleta de Dados do Mercado Livre
+
+Este projeto contém um spider do Scrapy para coletar dados de produtos de uma lista de resultados do Mercado Livre. O spider percorre várias páginas de resultados de busca de "tênis de corrida masculino" e extrai informações relevantes como nome, descrição, preços e avaliações.
+Funcionalidades
+
+    Coleta de Dados:
+        Extração de dados como nome do produto, descrição, preços (antigo e novo), centavos, número de avaliações e quantidade de avaliações.
+        Utiliza seletores CSS para localizar os elementos HTML que contêm os dados desejados.
+
+    Navegação entre Páginas:
+        Navega automaticamente para as páginas seguintes até atingir um limite máximo de 10 páginas ou até que não haja mais páginas.
